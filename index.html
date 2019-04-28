@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+	<html lang="en">
+	
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="Interactive wolverine model created with scss">
+		<meta name="keywords" content="scss, wolverine, swole">
+		<meta name="author" content="Michael J Peppers <mjpeppersdev@protonmail.com>">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Prime Number Grooves</title>
+		<link href="styles/style.css" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Orbitron:400,700" rel="stylesheet">
+		<link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+		<link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+	</head>
+	
+	<body>
+		<a id="github-link" href="https://github.com/MJPeppersdev" target="_blank"></a>
+		<div class="container">
+			<div class="machine">
+				<h1 class="heading">
+					Prime Number Grooves
+				</h1>
+
+				<div class="beatcount">
+					Groove count - <span id="beatcount">0</span>
+				</div>
+
+				<div class="blocks" id="blocks">
+
+				</div>
+
+				<div class="playbutton">
+					<button id="play-button">start
+					</button>
+				</div>
+			</div>
+			
+		</div>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/tone/13.8.9/Tone.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+		<script src="app.js"></script>
+	</body>
